@@ -26,9 +26,10 @@ git clone https://github.com/kenzok8/golang feeds/packages/lang/golang
 #git clone https://github.com/xiaorouji/openwrt-passwall-packages package/helloworld
 #git clone --depth=1 -b 18.06 https://github.com/kiddin9/luci-theme-edge package/luci-theme-edge
 #git clone --depth=1 https://github.com/derisamedia/luci-theme-alpha package/luci-theme-alpha
+cd package
 git clone -b main https://github.com/sirpdboy/luci-theme-kucat.git
 git clone -b js https://github.com/sirpdboy/luci-app-advancedplus.git
-
+cd..
 #克隆的源码放在small文件夹,预先建立small文件夹
 #mkdir package/small
 #pushd package/small
@@ -38,7 +39,7 @@ git clone -b js https://github.com/sirpdboy/luci-app-advancedplus.git
 #rm -rf ./feeds/packages/net/mosdns
 #rm -rf feeds/packages/net/v2ray-geodata
 rm -rf feeds/luci/themes/luci-theme-argon
-rm -rf feeds/luci/themes/luci-theme-bootstrap
+#rm -rf feeds/luci/themes/luci-theme-bootstrap
 rm -rf feeds/luci/themes/luci-app-argon-config
 
 #passwall2
