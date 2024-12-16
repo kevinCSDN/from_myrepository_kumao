@@ -28,7 +28,7 @@ git clone https://github.com/kenzok8/golang feeds/packages/lang/golang
 #git clone --depth=1 https://github.com/derisamedia/luci-theme-alpha package/luci-theme-alpha
 cd package
 git clone -b main https://github.com/sirpdboy/luci-theme-kucat.git
-git clone -b js https://github.com/sirpdboy/luci-app-advancedplus.git
+git clone -b main https://github.com/sirpdboy/luci-app-advancedplus.git
 cd..
 #克隆的源码放在small文件夹,预先建立small文件夹
 #mkdir package/small
